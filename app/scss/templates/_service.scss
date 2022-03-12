@@ -1,0 +1,63 @@
+.page-banner-content{
+	padding: 80px 0px;
+	h2{
+		font-size:30px;
+	}
+}
+
+.lead{
+	line-height: 35px;
+}
+
+.service-item{
+	margin-bottom: 30px;
+	padding: 40px;
+	border:1px solid rgba(0,0,0,0.04);
+	cursor: pointer;
+	-webkit-transition: all .45s ease;
+	   -moz-transition: all .45s ease;
+	    -ms-transition: all .45s ease;
+	     -o-transition: all .45s ease;
+	        transition: all .45s ease;
+
+	&:hover{
+		background: $black;
+	}
+	i{
+		font-size: 50px;
+		-webkit-transition: all .45s ease;
+	   -moz-transition: all .45s ease;
+	    -ms-transition: all .45s ease;
+	     -o-transition: all .45s ease;
+	        transition: all .45s ease;
+	}
+
+	.service-content h4,.service-content p{
+		-webkit-transition: all .45s ease;
+		   -moz-transition: all .45s ease;
+		    -ms-transition: all .45s ease;
+		     -o-transition: all .45s ease;
+		        transition: all .45s ease;
+	}
+
+	.service-content{
+		h4{
+			font-size: 18px;
+			text-transform: capitalize;
+		}
+		p{
+			margin-bottom: 0px;
+		}
+	}
+
+	&:hover .service-content h4,&:hover i{
+		color: $light;
+	}
+
+	&:hover .service-content p{
+		color: rgba(255,255,255,0.8);
+	}
+	.service-icon{
+		margin-right: 35px;
+	}
+}

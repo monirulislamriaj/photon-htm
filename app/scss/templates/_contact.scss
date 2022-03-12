@@ -1,0 +1,16 @@
+#map{
+	height:350px;
+}
+
+.contact__form{
+	padding: 50px;
+	background: #eee;
+
+	.form-control{
+		height:45px;
+		border-radius: 0px;
+	}
+	textarea.form-control{
+		height:auto;
+	}
+}

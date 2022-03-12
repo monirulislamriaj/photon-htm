@@ -1,0 +1,72 @@
+.portfolio-wrapper{
+   margin: 5px;
+}
+
+
+// Gallery
+// 
+
+
+.gallery-block{
+	border:2px solid $light;
+}
+
+
+// ?Filter Gallery
+
+
+.gallery-item{
+	position: relative;
+
+	.overlay-inner{
+		position: absolute;
+		content:"";
+		left: 0px;
+		top:0px;
+		width: 100%;
+		height:100%;
+		background: rgba(21, 21, 21, 0.6);
+		display: flex;
+		align-items: center;
+		opacity: 0;
+		visibility: hidden;
+		cursor: pointer;
+		-webkit-transition: all .45s ease;
+		   -moz-transition: all .45s ease;
+		    -ms-transition: all .45s ease;
+		     -o-transition: all .45s ease;
+		        transition: all .45s ease;
+
+		a{
+			display: inline-block;
+			position: absolute;
+			content: "";
+			left: 0px;
+			right: 0px;
+			text-align: center;
+			padding: 15px 15px;
+			color: $light;
+			font-size: 34px;
+			font-weight: 700;
+		}
+	}
+
+	&:hover .overlay-inner{
+		opacity: 1;
+		visibility: visible;
+	}
+
+
+}
+
+.portfolio-3 .btn-group .btn{
+	padding: 0px 20px;
+}
+
+.btn.focus,.btn:focus{
+	box-shadow: none;
+}
+
+.btn.active{
+	color: $primary-color;
+}
